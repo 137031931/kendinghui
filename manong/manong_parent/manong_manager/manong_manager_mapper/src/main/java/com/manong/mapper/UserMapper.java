@@ -2,8 +2,9 @@ package com.manong.mapper;
 
 import com.manong.pojo.User;
 import com.manong.pojo.UserExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface UserMapper {
     int countByExample(UserExample example);
