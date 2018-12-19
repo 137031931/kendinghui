@@ -35,7 +35,22 @@
         </div>
     </div>
 <script>
-    $
+    $('#tt').tree({
+        onClick: function(node){
+            var tabs = $("#tabs");
+            var tab = tabs.tabs("getTab",node.text);
+            if(tab){
+                tab.tabs("select",node.text)
+            }{
+                // add a new tab panel
+                $('#tt').tabs('add',{
+                    title:'node.txt',
+                    content:'Tab Body',
+                    closable:true
+                });
+            }
+        }
+    });
 </script>
 </body>
 </html>
