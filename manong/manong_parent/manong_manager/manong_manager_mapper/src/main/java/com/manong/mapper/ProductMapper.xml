@@ -3,14 +3,14 @@
 <mapper namespace="com.manong.mapper.ProductMapper" >
   <resultMap id="BaseResultMap" type="com.manong.pojo.Product" >
     <id column="id" property="id" jdbcType="INTEGER" />
-    <result column="category_id" property="categoryId" jdbcType="INTEGER" />
+    <result column="category_id" property="categoryId" jdbcType="SMALLINT" />
     <result column="name" property="name" jdbcType="VARCHAR" />
     <result column="image" property="image" jdbcType="VARCHAR" />
     <result column="market_price" property="marketPrice" jdbcType="DECIMAL" />
     <result column="price" property="price" jdbcType="DECIMAL" />
-    <result column="status" property="status" jdbcType="INTEGER" />
+    <result column="status" property="status" jdbcType="TINYINT" />
     <result column="description" property="description" jdbcType="VARCHAR" />
-    <result column="product_number" property="productNumber" jdbcType="INTEGER" />
+    <result column="product_number" property="productNumber" jdbcType="VARCHAR" />
   </resultMap>
   <sql id="Example_Where_Clause" >
     <where >
@@ -108,9 +108,9 @@
       image, market_price, price, 
       status, description, product_number
       )
-    values (#{id,jdbcType=INTEGER}, #{categoryId,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, 
+    values (#{id,jdbcType=INTEGER}, #{categoryId,jdbcType=SMALLINT}, #{name,jdbcType=VARCHAR}, 
       #{image,jdbcType=VARCHAR}, #{marketPrice,jdbcType=DECIMAL}, #{price,jdbcType=DECIMAL}, 
-      #{status,jdbcType=INTEGER}, #{description,jdbcType=VARCHAR}, #{productNumber,jdbcType=INTEGER}
+      #{status,jdbcType=TINYINT}, #{description,jdbcType=VARCHAR}, #{productNumber,jdbcType=VARCHAR}
       )
   </insert>
   <insert id="insertSelective" parameterType="com.manong.pojo.Product" >
@@ -149,7 +149,7 @@
         #{id,jdbcType=INTEGER},
       </if>
       <if test="categoryId != null" >
-        #{categoryId,jdbcType=INTEGER},
+        #{categoryId,jdbcType=SMALLINT},
       </if>
       <if test="name != null" >
         #{name,jdbcType=VARCHAR},
@@ -164,13 +164,13 @@
         #{price,jdbcType=DECIMAL},
       </if>
       <if test="status != null" >
-        #{status,jdbcType=INTEGER},
+        #{status,jdbcType=TINYINT},
       </if>
       <if test="description != null" >
         #{description,jdbcType=VARCHAR},
       </if>
       <if test="productNumber != null" >
-        #{productNumber,jdbcType=INTEGER},
+        #{productNumber,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
@@ -187,7 +187,7 @@
         id = #{record.id,jdbcType=INTEGER},
       </if>
       <if test="record.categoryId != null" >
-        category_id = #{record.categoryId,jdbcType=INTEGER},
+        category_id = #{record.categoryId,jdbcType=SMALLINT},
       </if>
       <if test="record.name != null" >
         name = #{record.name,jdbcType=VARCHAR},
@@ -202,13 +202,13 @@
         price = #{record.price,jdbcType=DECIMAL},
       </if>
       <if test="record.status != null" >
-        status = #{record.status,jdbcType=INTEGER},
+        status = #{record.status,jdbcType=TINYINT},
       </if>
       <if test="record.description != null" >
         description = #{record.description,jdbcType=VARCHAR},
       </if>
       <if test="record.productNumber != null" >
-        product_number = #{record.productNumber,jdbcType=INTEGER},
+        product_number = #{record.productNumber,jdbcType=VARCHAR},
       </if>
     </set>
     <if test="_parameter != null" >
@@ -218,14 +218,14 @@
   <update id="updateByExample" parameterType="map" >
     update product
     set id = #{record.id,jdbcType=INTEGER},
-      category_id = #{record.categoryId,jdbcType=INTEGER},
+      category_id = #{record.categoryId,jdbcType=SMALLINT},
       name = #{record.name,jdbcType=VARCHAR},
       image = #{record.image,jdbcType=VARCHAR},
       market_price = #{record.marketPrice,jdbcType=DECIMAL},
       price = #{record.price,jdbcType=DECIMAL},
-      status = #{record.status,jdbcType=INTEGER},
+      status = #{record.status,jdbcType=TINYINT},
       description = #{record.description,jdbcType=VARCHAR},
-      product_number = #{record.productNumber,jdbcType=INTEGER}
+      product_number = #{record.productNumber,jdbcType=VARCHAR}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -234,7 +234,7 @@
     update product
     <set >
       <if test="categoryId != null" >
-        category_id = #{categoryId,jdbcType=INTEGER},
+        category_id = #{categoryId,jdbcType=SMALLINT},
       </if>
       <if test="name != null" >
         name = #{name,jdbcType=VARCHAR},
@@ -249,27 +249,27 @@
         price = #{price,jdbcType=DECIMAL},
       </if>
       <if test="status != null" >
-        status = #{status,jdbcType=INTEGER},
+        status = #{status,jdbcType=TINYINT},
       </if>
       <if test="description != null" >
         description = #{description,jdbcType=VARCHAR},
       </if>
       <if test="productNumber != null" >
-        product_number = #{productNumber,jdbcType=INTEGER},
+        product_number = #{productNumber,jdbcType=VARCHAR},
       </if>
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
   <update id="updateByPrimaryKey" parameterType="com.manong.pojo.Product" >
     update product
-    set category_id = #{categoryId,jdbcType=INTEGER},
+    set category_id = #{categoryId,jdbcType=SMALLINT},
       name = #{name,jdbcType=VARCHAR},
       image = #{image,jdbcType=VARCHAR},
       market_price = #{marketPrice,jdbcType=DECIMAL},
       price = #{price,jdbcType=DECIMAL},
-      status = #{status,jdbcType=INTEGER},
+      status = #{status,jdbcType=TINYINT},
       description = #{description,jdbcType=VARCHAR},
-      product_number = #{productNumber,jdbcType=INTEGER}
+      product_number = #{productNumber,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
 </mapper>

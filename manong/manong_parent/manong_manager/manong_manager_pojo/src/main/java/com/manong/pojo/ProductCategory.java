@@ -1,21 +1,21 @@
 package com.manong.pojo;
 
 public class ProductCategory {
-    private Integer id;
+    private Short id;
 
     private String name;
 
-    private Integer sorderorder;
+    private Short sorderorder;
 
-    private Integer status;
+    private Byte status;
 
-    private Integer parentId;
+    private Short parentId;
 
-    public Integer getId() {
+    public Short getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Short id) {
         this.id = id;
     }
 
@@ -27,27 +27,27 @@ public class ProductCategory {
         this.name = name == null ? null : name.trim();
     }
 
-    public Integer getSorderorder() {
+    public Short getSorderorder() {
         return sorderorder;
     }
 
-    public void setSorderorder(Integer sorderorder) {
+    public void setSorderorder(Short sorderorder) {
         this.sorderorder = sorderorder;
     }
 
-    public Integer getStatus() {
+    public Byte getStatus() {
         return status;
     }
 
-    public void setStatus(Integer status) {
+    public void setStatus(Byte status) {
         this.status = status;
     }
 
-    public Integer getParentId() {
+    public Short getParentId() {
         return parentId;
     }
 
-    public void setParentId(Integer parentId) {
+    public void setParentId(Short parentId) {
         this.parentId = parentId;
     }
 }

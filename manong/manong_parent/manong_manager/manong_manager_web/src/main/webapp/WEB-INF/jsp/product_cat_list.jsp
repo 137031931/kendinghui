@@ -11,6 +11,15 @@
     <title>商品分类</title>
 </head>
 <body>
+<ul id="productCategory" class="easyui-tree">
+    <script type="text/javascript">
+        $(function () {
+            $('#tt').tree({
+                    url: "/product_category/list",
+            });
+        });
 
+    </script>
+</ul>
 </body>
 </html>

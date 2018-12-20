@@ -1,15 +1,16 @@
-package com.manong.service;
+package com.manong.service.impl;
 
 import com.manong.mapper.UserMapper;
 import com.manong.pojo.User;
 import com.manong.pojo.UserExample;
+import com.manong.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl implements UserService {
     @Autowired
     UserMapper userMapper;
     @Override

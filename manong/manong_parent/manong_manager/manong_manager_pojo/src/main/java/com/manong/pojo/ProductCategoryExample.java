@@ -114,52 +114,52 @@ public class ProductCategoryExample {
             return (Criteria) this;
         }
 
-        public Criteria andIdEqualTo(Integer value) {
+        public Criteria andIdEqualTo(Short value) {
             addCriterion("id =", value, "id");
             return (Criteria) this;
         }
 
-        public Criteria andIdNotEqualTo(Integer value) {
+        public Criteria andIdNotEqualTo(Short value) {
             addCriterion("id <>", value, "id");
             return (Criteria) this;
         }
 
-        public Criteria andIdGreaterThan(Integer value) {
+        public Criteria andIdGreaterThan(Short value) {
             addCriterion("id >", value, "id");
             return (Criteria) this;
         }
 
-        public Criteria andIdGreaterThanOrEqualTo(Integer value) {
+        public Criteria andIdGreaterThanOrEqualTo(Short value) {
             addCriterion("id >=", value, "id");
             return (Criteria) this;
         }
 
-        public Criteria andIdLessThan(Integer value) {
+        public Criteria andIdLessThan(Short value) {
             addCriterion("id <", value, "id");
             return (Criteria) this;
         }
 
-        public Criteria andIdLessThanOrEqualTo(Integer value) {
+        public Criteria andIdLessThanOrEqualTo(Short value) {
             addCriterion("id <=", value, "id");
             return (Criteria) this;
         }
 
-        public Criteria andIdIn(List<Integer> values) {
+        public Criteria andIdIn(List<Short> values) {
             addCriterion("id in", values, "id");
             return (Criteria) this;
         }
 
-        public Criteria andIdNotIn(List<Integer> values) {
+        public Criteria andIdNotIn(List<Short> values) {
             addCriterion("id not in", values, "id");
             return (Criteria) this;
         }
 
-        public Criteria andIdBetween(Integer value1, Integer value2) {
+        public Criteria andIdBetween(Short value1, Short value2) {
             addCriterion("id between", value1, value2, "id");
             return (Criteria) this;
         }
 
-        public Criteria andIdNotBetween(Integer value1, Integer value2) {
+        public Criteria andIdNotBetween(Short value1, Short value2) {
             addCriterion("id not between", value1, value2, "id");
             return (Criteria) this;
         }
@@ -244,52 +244,52 @@ public class ProductCategoryExample {
             return (Criteria) this;
         }
 
-        public Criteria andSorderorderEqualTo(Integer value) {
+        public Criteria andSorderorderEqualTo(Short value) {
             addCriterion("sorderorder =", value, "sorderorder");
             return (Criteria) this;
         }
 
-        public Criteria andSorderorderNotEqualTo(Integer value) {
+        public Criteria andSorderorderNotEqualTo(Short value) {
             addCriterion("sorderorder <>", value, "sorderorder");
             return (Criteria) this;
         }
 
-        public Criteria andSorderorderGreaterThan(Integer value) {
+        public Criteria andSorderorderGreaterThan(Short value) {
             addCriterion("sorderorder >", value, "sorderorder");
             return (Criteria) this;
         }
 
-        public Criteria andSorderorderGreaterThanOrEqualTo(Integer value) {
+        public Criteria andSorderorderGreaterThanOrEqualTo(Short value) {
             addCriterion("sorderorder >=", value, "sorderorder");
             return (Criteria) this;
         }
 
-        public Criteria andSorderorderLessThan(Integer value) {
+        public Criteria andSorderorderLessThan(Short value) {
             addCriterion("sorderorder <", value, "sorderorder");
             return (Criteria) this;
         }
 
-        public Criteria andSorderorderLessThanOrEqualTo(Integer value) {
+        public Criteria andSorderorderLessThanOrEqualTo(Short value) {
             addCriterion("sorderorder <=", value, "sorderorder");
             return (Criteria) this;
         }
 
-        public Criteria andSorderorderIn(List<Integer> values) {
+        public Criteria andSorderorderIn(List<Short> values) {
             addCriterion("sorderorder in", values, "sorderorder");
             return (Criteria) this;
         }
 
-        public Criteria andSorderorderNotIn(List<Integer> values) {
+        public Criteria andSorderorderNotIn(List<Short> values) {
             addCriterion("sorderorder not in", values, "sorderorder");
             return (Criteria) this;
         }
 
-        public Criteria andSorderorderBetween(Integer value1, Integer value2) {
+        public Criteria andSorderorderBetween(Short value1, Short value2) {
             addCriterion("sorderorder between", value1, value2, "sorderorder");
             return (Criteria) this;
         }
 
-        public Criteria andSorderorderNotBetween(Integer value1, Integer value2) {
+        public Criteria andSorderorderNotBetween(Short value1, Short value2) {
             addCriterion("sorderorder not between", value1, value2, "sorderorder");
             return (Criteria) this;
         }
@@ -304,52 +304,52 @@ public class ProductCategoryExample {
             return (Criteria) this;
         }
 
-        public Criteria andStatusEqualTo(Integer value) {
+        public Criteria andStatusEqualTo(Byte value) {
             addCriterion("status =", value, "status");
             return (Criteria) this;
         }
 
-        public Criteria andStatusNotEqualTo(Integer value) {
+        public Criteria andStatusNotEqualTo(Byte value) {
             addCriterion("status <>", value, "status");
             return (Criteria) this;
         }
 
-        public Criteria andStatusGreaterThan(Integer value) {
+        public Criteria andStatusGreaterThan(Byte value) {
             addCriterion("status >", value, "status");
             return (Criteria) this;
         }
 
-        public Criteria andStatusGreaterThanOrEqualTo(Integer value) {
+        public Criteria andStatusGreaterThanOrEqualTo(Byte value) {
             addCriterion("status >=", value, "status");
             return (Criteria) this;
         }
 
-        public Criteria andStatusLessThan(Integer value) {
+        public Criteria andStatusLessThan(Byte value) {
             addCriterion("status <", value, "status");
             return (Criteria) this;
         }
 
-        public Criteria andStatusLessThanOrEqualTo(Integer value) {
+        public Criteria andStatusLessThanOrEqualTo(Byte value) {
             addCriterion("status <=", value, "status");
             return (Criteria) this;
         }
 
-        public Criteria andStatusIn(List<Integer> values) {
+        public Criteria andStatusIn(List<Byte> values) {
             addCriterion("status in", values, "status");
             return (Criteria) this;
         }
 
-        public Criteria andStatusNotIn(List<Integer> values) {
+        public Criteria andStatusNotIn(List<Byte> values) {
             addCriterion("status not in", values, "status");
             return (Criteria) this;
         }
 
-        public Criteria andStatusBetween(Integer value1, Integer value2) {
+        public Criteria andStatusBetween(Byte value1, Byte value2) {
             addCriterion("status between", value1, value2, "status");
             return (Criteria) this;
         }
 
-        public Criteria andStatusNotBetween(Integer value1, Integer value2) {
+        public Criteria andStatusNotBetween(Byte value1, Byte value2) {
             addCriterion("status not between", value1, value2, "status");
             return (Criteria) this;
         }
@@ -364,52 +364,52 @@ public class ProductCategoryExample {
             return (Criteria) this;
         }
 
-        public Criteria andParentIdEqualTo(Integer value) {
+        public Criteria andParentIdEqualTo(Short value) {
             addCriterion("parent_id =", value, "parentId");
             return (Criteria) this;
         }
 
-        public Criteria andParentIdNotEqualTo(Integer value) {
+        public Criteria andParentIdNotEqualTo(Short value) {
             addCriterion("parent_id <>", value, "parentId");
             return (Criteria) this;
         }
 
-        public Criteria andParentIdGreaterThan(Integer value) {
+        public Criteria andParentIdGreaterThan(Short value) {
             addCriterion("parent_id >", value, "parentId");
             return (Criteria) this;
         }
 
-        public Criteria andParentIdGreaterThanOrEqualTo(Integer value) {
+        public Criteria andParentIdGreaterThanOrEqualTo(Short value) {
             addCriterion("parent_id >=", value, "parentId");
             return (Criteria) this;
         }
 
-        public Criteria andParentIdLessThan(Integer value) {
+        public Criteria andParentIdLessThan(Short value) {
             addCriterion("parent_id <", value, "parentId");
             return (Criteria) this;
         }
 
-        public Criteria andParentIdLessThanOrEqualTo(Integer value) {
+        public Criteria andParentIdLessThanOrEqualTo(Short value) {
             addCriterion("parent_id <=", value, "parentId");
             return (Criteria) this;
         }
 
-        public Criteria andParentIdIn(List<Integer> values) {
+        public Criteria andParentIdIn(List<Short> values) {
             addCriterion("parent_id in", values, "parentId");
             return (Criteria) this;
         }
 
-        public Criteria andParentIdNotIn(List<Integer> values) {
+        public Criteria andParentIdNotIn(List<Short> values) {
             addCriterion("parent_id not in", values, "parentId");
             return (Criteria) this;
         }
 
-        public Criteria andParentIdBetween(Integer value1, Integer value2) {
+        public Criteria andParentIdBetween(Short value1, Short value2) {
             addCriterion("parent_id between", value1, value2, "parentId");
             return (Criteria) this;
         }
 
-        public Criteria andParentIdNotBetween(Integer value1, Integer value2) {
+        public Criteria andParentIdNotBetween(Short value1, Short value2) {
             addCriterion("parent_id not between", value1, value2, "parentId");
             return (Criteria) this;
         }
