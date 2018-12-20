@@ -2,24 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b460eeb-fddc-4b8a-a0e5-b7cd3dc84bab" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_mapper/src/main/java/com/manong/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_mapper/src/main/java/com/manong/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_pojo/src/main/java/com/manong/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_pojo/src/main/java/com/manong/pojo/UserExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_service/src/main/java/com/manong/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_service/src/main/java/com/manong/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_web/src/main/java/com/manong/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_mapper/src/main/java/com/manong/mapper/ProductCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_mapper/src/main/java/com/manong/mapper/ProductCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_mapper/src/main/java/com/manong/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_mapper/src/main/java/com/manong/mapper/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../manong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../manong/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_mapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_mapper/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_web/target/tomcat/logs/access_log.2018-12-17" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manong/manong_parent/manong_manager/manong_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manong/manong_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../manong/manong_parent/pom.xml" afterDir="false" />
     </list>
     <ignored path="generatorSqlmapCustom.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,22 +60,8 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="1" />
-          <entry key="java" value="2" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="2" />
-          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -102,7 +80,31 @@
     <favorites_list name="generatorSqlmapCustom" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GeneratorSqlmap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="643">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/generatorConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -121,9 +123,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="663" />
-    <option name="y" value="102" />
-    <option name="width" value="1772" />
+    <option name="x" value="724" />
+    <option name="y" value="65" />
+    <option name="width" value="1920" />
     <option name="height" value="966" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -132,6 +134,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -143,38 +146,32 @@
             <path>
               <item name="generatorSqlmapCustom" type="b2602c69:ProjectViewProjectNode" />
               <item name="generatorSqlmapCustom" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="generatorSqlmapCustom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="generatorSqlmapCustom" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="generatorSqlmapCustom" type="b2602c69:ProjectViewProjectNode" />
               <item name="generatorSqlmapCustom" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com.manong" type="462c0819:PsiDirectoryNode" />
+              <item name="manong" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="generatorSqlmapCustom" type="b2602c69:ProjectViewProjectNode" />
               <item name="generatorSqlmapCustom" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com.manong" type="462c0819:PsiDirectoryNode" />
+              <item name="manong" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="generatorSqlmapCustom" type="b2602c69:ProjectViewProjectNode" />
               <item name="generatorSqlmapCustom" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com.manong" type="462c0819:PsiDirectoryNode" />
+              <item name="manong" type="462c0819:PsiDirectoryNode" />
               <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -479,18 +476,18 @@
       <workItem from="1536232522716" duration="710000" />
       <workItem from="1536822847033" duration="49000" />
       <workItem from="1539394694543" duration="589000" />
-      <workItem from="1545107072646" duration="1068000" />
+      <workItem from="1545288790796" duration="332000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10238000" />
+    <option name="totallyTimeSpent" value="9502000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="663" y="102" width="1772" height="966" extended-state="0" />
+    <frame x="724" y="65" width="1920" height="966" extended-state="0" />
     <layout>
       <window_info id="Image Layers" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29595375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27263045" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -549,16 +546,6 @@
     <entry file="file://$PROJECT_DIR$/src/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/GeneratorSqlmap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#1358#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GeneratorSqlmap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="643">
@@ -568,29 +555,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/manong/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/manong/pojo/UserExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/manong/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="98" selection-start-line="1" selection-start-column="98" selection-end-line="1" selection-end-column="98" />
+        <state relative-caret-position="263">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
         </state>
       </provider>
     </entry>
