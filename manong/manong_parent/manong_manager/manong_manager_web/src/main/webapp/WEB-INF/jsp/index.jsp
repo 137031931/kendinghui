@@ -20,8 +20,8 @@
             <li>
                 <span>商品管理</span>
                 <ul>
-                    <li><span>商品列表</span></li>
-                    <li><span>商品添加</span></li>
+                    <li data-options="attributes:{'url':'product_list'}">商品列表</li>
+                    <li data-options="attributes:{'url':'product_add'}"><span>商品添加</span></li>
                 </ul>
             </li>
         </ul>
@@ -41,11 +41,12 @@
             var tab = tabs.tabs("getTab",node.text);
             if(tab){
                 tab.tabs("select",node.text)
-            }{
+            }else{
                 // add a new tab panel
-                $('#tt').tabs('add',{
-                    title:'node.txt',
+               tabs.tabs('add',{
+                    title:node.text,
                     content:'Tab Body',
+                    href:node.attributes.url,
                     closable:true
                 });
             }
