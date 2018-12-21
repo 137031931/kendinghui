@@ -19,6 +19,7 @@
 </div>
     <script type="text/javascript">
         $(function () {
+
             $('#productCategory').tree({
                 url: "/product_category/list",
                 onContextMenu: function(e, node){
@@ -30,7 +31,26 @@
                         left: e.pageX,
                         top: e.pageY
                     });
-                }
+                },
+              onAfterEdit:function (node) {
+
+                    var _tree = $('#productCategory');
+
+                  if(node.id == 0){
+                      $.post("/product_category/add",{parentId:node.id,name:node.text},function (data) {
+                          if(data.status==200){
+                                -tree.tree('update',{
+                                    target:node.target,
+                                })
+                          }else{
+                              alert("添加分类失败")
+                          }
+                      })
+                  }else{
+
+                  }
+              }  
+                
             });
         });
         function append() {
@@ -45,14 +65,21 @@
                 }]
 
             });
+
+            var _node = tree.tree("find",0);
+            tree.tree("select",_node.target).tree("beginEdit",_node.target);
         };
 
         function rename(){
-            alert("rename");
+           var tree = $('#productCategory');
+           var node = tree.tree('getSelected');
+           tree.tree("beginEdit",node.target);
         };
 
         function remove() {
-            alert("remove");
+            var tree = $('#productCategory');
+            var node = tree.tree('getSelected');
+            tree.tree("remove",node.target);
         };
 
     </script>

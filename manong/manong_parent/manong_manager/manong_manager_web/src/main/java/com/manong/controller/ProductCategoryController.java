@@ -29,4 +29,9 @@ public class ProductCategoryController {
         List<EasyUITree> easyUITrees = productCategoryService.findProductCategoryListByParentId(parentId);
         return easyUITrees;
     }
+
+    /**
+     * 添加分类
+     */
+
 }

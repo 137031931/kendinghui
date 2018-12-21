@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59316255-4809-424d-a8a6-c3a3c1c9c306" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/manong_parent/manong_common/src/main/java/pojo/ResponseResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/java/com/manong/controller/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/java/com/manong/controller/PageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/java/com/manong/controller/ProductCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/java/com/manong/controller/ProductCategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/webapp/WEB-INF/jsp/product_cat_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/webapp/WEB-INF/jsp/product_cat_list.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,8 +50,8 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="40" />
-          <entry key="js" value="2" />
+          <entry key="java" value="41" />
+          <entry key="js" value="3" />
           <entry key="jsp" value="9" />
           <entry key="properties" value="3" />
           <entry key="xml" value="37" />
@@ -63,9 +62,9 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="40" />
+          <entry key="JAVA" value="41" />
           <entry key="JSP" value="9" />
-          <entry key="JavaScript" value="2" />
+          <entry key="JavaScript" value="3" />
           <entry key="Properties" value="3" />
           <entry key="XML" value="38" />
         </counts>
@@ -73,18 +72,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="java" value="1081" />
-          <entry key="jsp" value="709" />
+          <entry key="java" value="1232" />
+          <entry key="jsp" value="1172" />
           <entry key="properties" value="114" />
-          <entry key="txt" value="62" />
+          <entry key="txt" value="71" />
           <entry key="xml" value="2167" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1081" />
-          <entry key="JSP" value="709" />
-          <entry key="PLAIN_TEXT" value="72" />
+          <entry key="JAVA" value="1232" />
+          <entry key="JSP" value="1172" />
+          <entry key="PLAIN_TEXT" value="81" />
           <entry key="Properties" value="114" />
           <entry key="XML" value="2167" />
         </counts>
@@ -96,10 +95,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/java/com/manong/controller/ProductCategoryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            <state relative-caret-position="123">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/manong_parent/manong_common/src/main/java/pojo/ResponseResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#605#606#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -182,25 +208,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/webapp/WEB-INF/jsp/product_cat_list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+            <state relative-caret-position="257">
+              <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_service/src/main/java/com/manong/service/impl/ProductCategoryServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="23" column="61" lean-forward="true" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -250,11 +264,12 @@
         <option value="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_service/pom.xml" />
         <option value="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_service/src/main/java/com/manong/service/impl/ProductCategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_service/src/main/java/com/manong/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/java/com/manong/controller/ProductCategoryController.java" />
         <option value="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/webapp/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/java/com/manong/controller/PageController.java" />
         <option value="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/java/com/manong/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/webapp/WEB-INF/jsp/product_cat_list.jsp" />
+        <option value="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/java/com/manong/controller/ProductCategoryController.java" />
+        <option value="$PROJECT_DIR$/manong_parent/manong_common/src/main/java/pojo/ResponseResult.java" />
       </list>
     </option>
   </component>
@@ -288,8 +303,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="90" />
+    <option name="x" value="250" />
+    <option name="y" value="69" />
     <option name="width" value="1701" />
     <option name="height" value="957" />
   </component>
@@ -372,6 +387,40 @@
               <item name="manong" type="462c0819:PsiDirectoryNode" />
               <item name="manong_parent" type="462c0819:PsiDirectoryNode" />
               <item name="manong_common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manong" type="462c0819:PsiDirectoryNode" />
+              <item name="manong_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="manong_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manong" type="462c0819:PsiDirectoryNode" />
+              <item name="manong_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="manong_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manong" type="462c0819:PsiDirectoryNode" />
+              <item name="manong_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="manong_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manong" type="462c0819:PsiDirectoryNode" />
+              <item name="manong_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="manong_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="manong" type="b2602c69:ProjectViewProjectNode" />
@@ -541,7 +590,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545315415457" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545407138744" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -689,7 +738,7 @@
       <workItem from="1545313103549" duration="656000" />
       <workItem from="1545313825819" duration="1798000" />
       <workItem from="1545316378558" duration="1835000" />
-      <workItem from="1545363446007" duration="10949000" />
+      <workItem from="1545363446007" duration="16731000" />
     </task>
     <task id="LOCAL-00001" summary="学习整合">
       <created>1544851711886</created>
@@ -726,17 +775,24 @@
       <option name="project" value="LOCAL" />
       <updated>1545317659165</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="实现添加数据">
+      <created>1545396903479</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1545396903481</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100839000" />
+    <option name="totallyTimeSpent" value="106621000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="718" y="302" width="1701" height="957" extended-state="0" />
+    <frame x="778" y="87" width="1701" height="957" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4888889" visible="true" weight="0.2188065" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4888889" visible="true" weight="0.2188065" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -746,7 +802,7 @@
       <window_info id="Web" order="7" sideWeight="0.51111114" side_tool="true" visible="true" weight="0.2188065" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4996986" visible="true" weight="0.2716763" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996986" visible="true" weight="0.2716763" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -780,7 +836,8 @@
     <MESSAGE value="页面布局" />
     <MESSAGE value="逆向工程生成pojo和mapper" />
     <MESSAGE value="逆向工程生成从数据库取数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="逆向工程生成从数据库取数据" />
+    <MESSAGE value="实现添加数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现添加数据" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
@@ -935,13 +992,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/webapp/WEB-INF/js/jquery.easyui.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118818">
-          <caret line="5166" column="16" selection-start-line="5166" selection-start-column="16" selection-end-line="5166" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_mapper/src/main/java/com/manong/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3289">
@@ -1076,16 +1126,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/java/com/manong/controller/ProductCategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/java/com/manong/controller/PageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -1132,12 +1172,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/webapp/WEB-INF/js/jquery.easyui.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-476">
+          <caret line="2278" selection-start-line="2278" selection-end-line="2278" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/webapp/WEB-INF/jsp/product_cat_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+        <state relative-caret-position="257">
+          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/java/com/manong/controller/ProductCategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manong_parent/manong_common/src/main/java/pojo/ResponseResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
           </folding>
         </state>
       </provider>
