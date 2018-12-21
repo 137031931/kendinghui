@@ -4,10 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 定义返回的jasn串的格式
+ * Created by wistbean on 2018/10/15.
  */
-public class ResponseJasnResult {
-    private  int status = 200;
+public class ResponseJsonResult {
+
+    private int status = 200;
     private String msg;
     private Object obj;
     private List<?> list = new ArrayList<Object>();
