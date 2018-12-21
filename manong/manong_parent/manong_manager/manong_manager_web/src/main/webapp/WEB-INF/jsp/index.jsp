@@ -27,7 +27,7 @@
                 <span>商品管理</span>
                 <ul>
                     <li data-options="attributes:{'url':'product_list'}">商品列表</li>
-                    <li data-options="attributes:{'url':'product_add'}"><span>商品添加</span></li>
+                    <li data-options="attributes:{'url':'product_add'}">商品添加</li>
                 </ul>
             </li>
         </ul>

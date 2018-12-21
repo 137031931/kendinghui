@@ -18,13 +18,15 @@ import java.util.List;
 public class ProductCategoryController {
     @Autowired
     ProductCategoryService productCategoryService;
+
     /**
-     * 根据parentId返回数据列表
+     * 根据parentid返回数据列表
      */
     @RequestMapping("/list")
     @ResponseBody
-    public List<EasyUITree> getProductCategoryListByParentId(@RequestParam(value = "parentid",defaultValue = "0") Short parentId){
-        List<EasyUITree> easyUITrees= productCategoryService.findProductCategoryListByParentId(parentId);
+    public List<EasyUITree> getProductCategoryByParentId(@RequestParam(value = "id", defaultValue = "0") Short
+                                                                 parentId) {
+        List<EasyUITree> easyUITrees = productCategoryService.findProductCategoryListByParentId(parentId);
         return easyUITrees;
     }
 }
