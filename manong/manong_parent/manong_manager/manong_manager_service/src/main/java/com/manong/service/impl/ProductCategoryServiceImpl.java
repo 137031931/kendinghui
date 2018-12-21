@@ -6,6 +6,7 @@ import com.manong.pojo.ProductCategoryExample;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pojo.EasyUITree;
+import pojo.ResponseJasnResult;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,5 +32,19 @@ public class ProductCategoryServiceImpl implements ProductCategoryService {
             easyUITrees.add(easyuiTree);
         }
         return easyUITrees;
+    }
+
+    @Override
+    public ResponseJasnResult addCategory(Short parentid, String name) {
+        ProductCategory productCategory = new ProductCategory();
+        productCategory.setParentId(parentid);
+        productCategory.setName(name);
+        //添加实体类
+        productCategoryMapper.insert(productCategory);
+
+        ResponseJasnResult responseJasnResult = new ResponseJasnResult();
+        //这里是一个String类型所以要加一个""孔梅花字符串
+        responseJasnResult.setMsg(productCategory.getId()+"");
+        return responseJasnResult;
     }
 }

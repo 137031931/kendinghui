@@ -41,6 +41,7 @@
                           if(data.status==200){
                                 -tree.tree('update',{
                                     target:node.target,
+                                    id:data.msg
                                 })
                           }else{
                               alert("添加分类失败")

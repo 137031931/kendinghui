@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import pojo.EasyUITree;
+import pojo.ResponseJasnResult;
 
 import java.util.List;
 
@@ -33,5 +34,11 @@ public class ProductCategoryController {
     /**
      * 添加分类
      */
+    @RequestMapping("/add")
+    @ResponseBody
+    public ResponseJasnResult addCategory(Short parentId,String name){
+        ResponseJasnResult responseJasnResult = productCategoryService.addCategory(parentId, name);
+        return responseJasnResult;
+    }
 
 }
