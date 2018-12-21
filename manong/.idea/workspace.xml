@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="59316255-4809-424d-a8a6-c3a3c1c9c306" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_mapper/src/main/java/com/manong/mapper/ProductCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_mapper/src/main/java/com/manong/mapper/ProductCategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_service/src/main/java/com/manong/service/impl/ProductCategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_service/src/main/java/com/manong/service/impl/ProductCategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_service/src/main/java/com/manong/service/impl/ProductCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_service/src/main/java/com/manong/service/impl/ProductCategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/java/com/manong/controller/ProductCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/java/com/manong/controller/ProductCategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_service/target/classes/com/manong/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/manong_parent/target/" />
@@ -55,7 +53,7 @@
           <entry key="js" value="3" />
           <entry key="jsp" value="9" />
           <entry key="properties" value="3" />
-          <entry key="xml" value="38" />
+          <entry key="xml" value="39" />
           <entry key="xsd" value="1" />
         </counts>
       </usages-collector>
@@ -67,24 +65,24 @@
           <entry key="JSP" value="9" />
           <entry key="JavaScript" value="3" />
           <entry key="Properties" value="3" />
-          <entry key="XML" value="39" />
+          <entry key="XML" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
-          <entry key="java" value="1455" />
-          <entry key="jsp" value="1172" />
+          <entry key="java" value="1478" />
+          <entry key="jsp" value="1185" />
           <entry key="properties" value="114" />
-          <entry key="txt" value="85" />
+          <entry key="txt" value="136" />
           <entry key="xml" value="2194" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1455" />
-          <entry key="JSP" value="1172" />
-          <entry key="PLAIN_TEXT" value="99" />
+          <entry key="JAVA" value="1478" />
+          <entry key="JSP" value="1185" />
+          <entry key="PLAIN_TEXT" value="150" />
           <entry key="Properties" value="114" />
           <entry key="XML" value="2194" />
         </counts>
@@ -93,11 +91,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/java/com/manong/controller/ProductCategoryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="38" column="68" selection-start-line="38" selection-start-column="68" selection-end-line="38" selection-end-column="68" />
+            <state relative-caret-position="215">
+              <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,17 +146,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_mapper/src/main/java/com/manong/mapper/ProductCategoryMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="138">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_mapper/src/main/java/com/manong/mapper/ProductCategoryMapper.xml">
+        <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/resources/mybatis/SqlMapConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="101" column="52" selection-start-line="101" selection-start-column="52" selection-end-line="101" selection-end-column="52" />
+            <state relative-caret-position="138">
+              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -166,8 +164,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_service/src/main/java/com/manong/service/impl/ProductCategoryServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+            <state relative-caret-position="284">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -197,8 +195,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_service/src/main/java/com/manong/service/impl/ProductCategoryService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="161">
+              <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -206,11 +204,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/webapp/WEB-INF/jsp/product_cat_list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+            <state relative-caret-position="307">
+              <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -263,13 +261,13 @@
         <option value="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/webapp/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/java/com/manong/controller/PageController.java" />
         <option value="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/java/com/manong/controller/ProductController.java" />
-        <option value="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/webapp/WEB-INF/jsp/product_cat_list.jsp" />
         <option value="$PROJECT_DIR$/manong_parent/manong_common/src/main/java/pojo/ResponseResult.java" />
         <option value="$PROJECT_DIR$/manong_parent/manong_common/src/main/java/pojo/ResponseJasnResult.java" />
         <option value="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_service/src/main/java/com/manong/service/impl/ProductCategoryService.java" />
         <option value="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_mapper/src/main/java/com/manong/mapper/ProductCategoryMapper.xml" />
         <option value="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_service/src/main/java/com/manong/service/impl/ProductCategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/java/com/manong/controller/ProductCategoryController.java" />
+        <option value="$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/webapp/WEB-INF/jsp/product_cat_list.jsp" />
       </list>
     </option>
   </component>
@@ -303,8 +301,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="253" />
-    <option name="y" value="77" />
+    <option name="x" value="111" />
+    <option name="y" value="83" />
     <option name="width" value="1701" />
     <option name="height" value="957" />
   </component>
@@ -644,7 +642,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545407985095" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545408523095" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -792,7 +790,7 @@
       <workItem from="1545313103549" duration="656000" />
       <workItem from="1545313825819" duration="1798000" />
       <workItem from="1545316378558" duration="1835000" />
-      <workItem from="1545363446007" duration="17495000" />
+      <workItem from="1545363446007" duration="18020000" />
     </task>
     <task id="LOCAL-00001" summary="学习整合">
       <created>1544851711886</created>
@@ -843,14 +841,21 @@
       <option name="project" value="LOCAL" />
       <updated>1545407167595</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="传入add请求用控制器返回responseJasnResult到前端">
+      <created>1545408065721</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1545408065721</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107385000" />
+    <option name="totallyTimeSpent" value="107910000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="686" y="55" width="1701" height="957" extended-state="0" />
+    <frame x="701" y="123" width="1701" height="957" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4888889" visible="true" weight="0.2188065" />
@@ -899,7 +904,8 @@
     <MESSAGE value="逆向工程生成从数据库取数据" />
     <MESSAGE value="实现添加数据" />
     <MESSAGE value="创建jash格式的类" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建jash格式的类" />
+    <MESSAGE value="传入add请求用控制器返回responseJasnResult到前端" />
+    <option name="LAST_COMMIT_MESSAGE" value="传入add请求用控制器返回responseJasnResult到前端" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
@@ -1151,13 +1157,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/resources/mybatis/SqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/java/com/manong/controller/PageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -1211,33 +1210,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/webapp/WEB-INF/jsp/product_cat_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_service/src/main/java/com/manong/service/impl/ProductCategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_mapper/src/main/java/com/manong/mapper/ProductCategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manong_parent/manong_common/src/main/java/pojo/ResponseJasnResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -1264,29 +1236,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_mapper/src/main/java/com/manong/mapper/ProductCategoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="101" column="52" selection-start-line="101" selection-start-column="52" selection-end-line="101" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_service/src/main/java/com/manong/service/impl/ProductCategoryServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/java/com/manong/controller/ProductCategoryController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/java/com/manong/controller/ProductCategoryController.java">
+    <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_service/src/main/java/com/manong/service/impl/ProductCategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="38" column="68" selection-start-line="38" selection-start-column="68" selection-end-line="38" selection-end-column="68" />
+        <state relative-caret-position="161">
+          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_service/src/main/java/com/manong/service/impl/ProductCategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_mapper/src/main/java/com/manong/mapper/ProductCategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="101" column="52" selection-start-line="101" selection-start-column="52" selection-end-line="101" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_mapper/src/main/java/com/manong/mapper/ProductCategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/resources/mybatis/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manong_parent/manong_manager/manong_manager_web/src/main/webapp/WEB-INF/jsp/product_cat_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

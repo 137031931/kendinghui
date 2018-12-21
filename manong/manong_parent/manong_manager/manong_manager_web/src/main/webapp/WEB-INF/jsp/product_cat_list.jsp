@@ -39,12 +39,12 @@
                   if(node.id == 0){
                       $.post("/product_category/add",{parentId:node.id,name:node.text},function (data) {
                           if(data.status==200){
-                                -tree.tree('update',{
+                                _tree.tree('update',{
                                     target:node.target,
                                     id:data.msg
                                 })
                           }else{
-                              alert("添加分类失败")
+                              $.messager.alert("添加分类失败");
                           }
                       })
                   }else{
