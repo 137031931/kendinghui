@@ -37,7 +37,7 @@
                     var _tree = $('#productCategory');
 
                   if(node.id == 0){
-                      $.post("/product_category/add",{parentId:node.id,name:node.text},function (data) {
+                      $.post("/product_category/add",{parentId:node.parentId,name:node.text},function (data) {
                           if(data.status==200){
                                 _tree.tree('update',{
                                     target: node.target,
@@ -80,7 +80,14 @@
         function remove() {
             var tree = $('#productCategory');
             var node = tree.tree('getSelected');
-            tree.tree("remove",node.target);
+            $.post("/product_category/del",{parentId:node.attributes,id:node.id},function (data) {
+                if(data==200){
+
+                }else{
+                    $.messager.alert("删除分类失败")
+                }
+                tree.tree("remove",node.target);
+            })
         };
 
     </script>

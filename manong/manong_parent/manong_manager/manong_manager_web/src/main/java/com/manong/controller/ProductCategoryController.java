@@ -41,4 +41,14 @@ public class ProductCategoryController {
         return responseJsonResult;
     }
 
+    /**
+     * 删除的方法
+     */
+    @RequestMapping("/del")
+    @ResponseBody
+    public ResponseJsonResult delCategory(Short parentId, Short id){
+        ResponseJsonResult responseJsonResult = productCategoryService.deleteCategory(parentId, id);
+
+        return responseJsonResult;
+    }
 }

@@ -29,6 +29,8 @@ public class ProductCategoryServiceImpl implements ProductCategoryService {
 
             easyuiTree.setText(productCategory.getName());
             easyuiTree.setState(productCategory.getParentId()==0?"closed":"open");
+
+            easyuiTree.setAttributes(productCategory.getParentId()+"");
             easyUITrees.add(easyuiTree);
         }
         return easyUITrees;
@@ -44,6 +46,30 @@ public class ProductCategoryServiceImpl implements ProductCategoryService {
         ResponseJsonResult responseJsonResult = new ResponseJsonResult();
         //这里是一个String类型所以要加一个""孔梅花字符串
         responseJsonResult.setMsg(productCategory.getId()+"");
+
+        return responseJsonResult;
+    }
+
+    @Override
+    public ResponseJsonResult deleteCategory(Short parentid, Short id) {
+        ProductCategoryExample productCategoryExample = new ProductCategoryExample();
+        ProductCategoryExample.Criteria criteria = productCategoryExample.createCriteria();
+        if(parentid == 0){
+            criteria.andIdEqualTo(id);
+            ProductCategoryExample.Criteria criteria1 = productCategoryExample.createCriteria();
+            criteria1.andIdEqualTo(parentid);
+
+            productCategoryExample.or(criteria);
+        }else{
+            criteria.andIdEqualTo(id);
+        }
+
+        productCategoryMapper.deleteByExample(productCategoryExample);
+
+        ResponseJsonResult responseJsonResult = new ResponseJsonResult();
+        responseJsonResult.setStatus(200);
+        responseJsonResult.setMsg("success");
+
 
         return responseJsonResult;
     }
