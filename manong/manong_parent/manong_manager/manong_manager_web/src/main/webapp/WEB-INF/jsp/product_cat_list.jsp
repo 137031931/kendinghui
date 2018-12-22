@@ -81,12 +81,11 @@
             var tree = $('#productCategory');
             var node = tree.tree('getSelected');
             $.post("/product_category/del",{parentId:node.attributes,id:node.id},function (data) {
-                if(data==200){
-
+                if(data.status==200){
+                    tree.tree("remove",node.target);
                 }else{
                     $.messager.alert("删除分类失败")
                 }
-                tree.tree("remove",node.target);
             })
         };
 

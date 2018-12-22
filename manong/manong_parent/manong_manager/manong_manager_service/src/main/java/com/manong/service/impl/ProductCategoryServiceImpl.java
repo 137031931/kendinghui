@@ -44,7 +44,7 @@ public class ProductCategoryServiceImpl implements ProductCategoryService {
         //添加实体类
         productCategoryMapper.insert(productCategory);
         ResponseJsonResult responseJsonResult = new ResponseJsonResult();
-        //这里是一个String类型所以要加一个""孔梅花字符串
+        //这里是一个String类型所以要加一个""空字符串
         responseJsonResult.setMsg(productCategory.getId()+"");
 
         return responseJsonResult;
@@ -57,9 +57,9 @@ public class ProductCategoryServiceImpl implements ProductCategoryService {
         if(parentid == 0){
             criteria.andIdEqualTo(id);
             ProductCategoryExample.Criteria criteria1 = productCategoryExample.createCriteria();
-            criteria1.andIdEqualTo(parentid);
+            criteria1.andParentIdEqualTo(id);
 
-            productCategoryExample.or(criteria);
+            productCategoryExample.or(criteria1);
         }else{
             criteria.andIdEqualTo(id);
         }
