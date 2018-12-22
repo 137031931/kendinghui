@@ -1,0 +1,35 @@
+逆向工程的example类
+ 二.Example类的使用
+
+Example类的成员:
+
+    //升序还是降序:字段+空格+asc(desc)
+    protected String orderByClause;
+    //去除重复:true是选择不重复记录,false,反之
+    protected boolean distinct;
+    //自定义查询条件
+    protected List<Criteria> oredCriteria;
+1
+2
+3
+4
+5
+6
+需求:根据用户名查询查询user 
+sql:select id, username, birthday, sex, address from user WHERE ( username = ‘张三’ ) order by username asc
+
+@Test
+    public void testFindUserByName(){
+
+        //通过criteria构造查询条件
+        UserExample userExample = new UserExample();
+        userExample.setOrderByClause("username asc"); //asc升序,desc降序排列
+        userExample.setDistinct(false); //去除重复,true是选择不重复记录,false反之
+        UserExample.Criteria criteria = userExample.createCriteria(); //构造自定义查询条件
+        criteria.andUsernameEqualTo("张三");
+
+        //自定义查询条件可能返回多条记录,使用List接收
+        List<User> users = userMapper.selectByExample(userExample);
+
+        System.out.println(users);
+    }
