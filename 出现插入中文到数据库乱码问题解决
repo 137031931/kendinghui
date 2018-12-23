@@ -1,0 +1,18 @@
+我在jsp页面,数据库,以及项目环境都使用的utf-8编码,但是在页面向数据库传入汉字时候仍然出现乱码问题,
+查阅资料以后发现是tomcat数据库默认是GBK8859-1编码,所以出现乱码
+解决方法是在配置plugins时候,加入<uriEncoding>UTF-8</uriEncoding>即可得到解决,
+加入后发现还是乱码重新clean然后install在运行项目完美解决.
+
+<build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <configuration>
+                    <port>8080</port>
+                    <path>/</path>
+                    <uriEncoding>UTF-8</uriEncoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
