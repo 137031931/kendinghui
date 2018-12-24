@@ -42,6 +42,15 @@ public class ProductCategoryController {
     }
 
     /**
+     * 添加分类
+     */
+    @RequestMapping("/rename")
+    @ResponseBody
+    public ResponseJsonResult renameCategory(Short parentId, String name){
+        ResponseJsonResult responseJsonResult = productCategoryService.addCategory(parentId, name);
+        return responseJsonResult;
+    }
+    /**
      * 删除的方法
      */
     @RequestMapping("/del")

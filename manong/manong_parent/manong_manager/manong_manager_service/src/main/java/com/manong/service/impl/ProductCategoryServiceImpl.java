@@ -73,4 +73,18 @@ public class ProductCategoryServiceImpl implements ProductCategoryService {
 
         return responseJsonResult;
     }
+
+    @Override
+    public ResponseJsonResult renameCategory(Short parentid, String name) {
+        ProductCategory productCategory = new ProductCategory();
+        ProductCategoryExample productCategoryExample = new ProductCategoryExample();
+        productCategory.setName(name);
+        //添加实体类
+        productCategoryMapper.updateByExample(productCategory,productCategoryExample);
+        ResponseJsonResult responseJsonResult = new ResponseJsonResult();
+        //这里是一个String类型所以要加一个""空字符串
+        responseJsonResult.setMsg(productCategory.getId()+"");
+
+        return responseJsonResult;
+    }
 }

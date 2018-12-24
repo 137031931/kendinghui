@@ -18,5 +18,8 @@
         <module name="manong_sso" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="manong" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
